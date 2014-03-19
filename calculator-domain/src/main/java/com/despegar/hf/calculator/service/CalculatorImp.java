@@ -68,6 +68,7 @@ public class CalculatorImp
         c.setMemory(me);
         c.memoryStore(BigDecimal.valueOf(2.3));
         c.memoryClear();
+        // hola
         BigDecimal result = c.memoryRead();
         System.out.println(c.divide(BigDecimal.valueOf(2), BigDecimal.valueOf(4)));
     }
